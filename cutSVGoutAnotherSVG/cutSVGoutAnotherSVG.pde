@@ -17,7 +17,8 @@ void setup() {
 void draw() {
   background(255,0,0);
   RShape subShape = sjabloon.children[0];
-  //of RShape subShape = sjabloon.child("naamlaag");
+  //of
+  //RShape subShape = sjabloon.getChild("naamlaag");
   mypoints = subShape.getPoints();
   
   fill(255);
