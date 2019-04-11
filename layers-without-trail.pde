@@ -1,3 +1,4 @@
+//andere tekst
 PGraphics bg, fg;
 
 void setup() {
